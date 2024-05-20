@@ -74,7 +74,7 @@ public class TestHealthCheck extends TestCase {
     @Test
     public void testExecuteUpper() {
         final double height = 170.0;
-        final double weight = 72.25;
+        final double weight = 172.25;
         HealthCheck healthCheck = new HealthCheck();
         BmiBean bmiBean = new BmiBean();
         bmiBean.setHeight(height);
